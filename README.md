@@ -24,13 +24,13 @@ This project scrapes posts from r/bolehland, filters only those with images, sav
 - Go to step 2
   
   Alternetive (Clone using Git)
--Open Powershell / Command Prompt / Git Bash
+- Open Powershell / Command Prompt / Git Bash
  
   Insert ---> git clone https://github.com/ikmalaz/reddit-image-scraper.git
   
   Then insert ---> cd reddit-image-scraper
 
--Go to step 3
+- Go to step 3
   
 2.Open Powershell / Command Prompt / Git Bash
 
@@ -50,7 +50,7 @@ insert ---> cd (e.g, C:\Users\Documents\reddit-image-scraper) (based on folder P
 
  Insert ---> pip install -r requirements.txt
 
- -Update to the latest pip version if (optional)
+ - Update to the latest pip version if (optional)
 
 \## How to Run
 
