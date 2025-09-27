@@ -50,7 +50,7 @@ insert ---> cd (e.g, C:\Users\Documents\reddit-image-scraper) (based on folder P
 
  Insert ---> pip install -r requirements.txt
 
- - Update to the latest pip version if (optional)
+ - Update to the latest pip version (optional)
 
 \## How to Run
 
