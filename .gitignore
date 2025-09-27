@@ -1,16 +1,49 @@
-# Ignore virtual environment
+# Ignore virtual environment folders
 venv/
+.env/
+ENV/
+env/
 
-# Ignore Python cache files
+# Ignore Python cache and compiled files
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
+*.pyd.dylib
+*.so
 
-# Ignore system files
+# Ignore build and distribution folders
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Ignore logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore OS/system files
 .DS_Store
 Thumbs.db
 
-# Ignore IDE settings
+# Ignore IDE/editor settings
 .vscode/
 .idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore environment/config files
+*.env
+.envrc
+*.ini
+*.cfg
+
+# Ignore output files from scraping
+results.json
+output/
+data/
+downloads/
