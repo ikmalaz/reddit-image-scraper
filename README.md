@@ -17,7 +17,8 @@ This project scrapes posts from r/bolehland, filters only those with images, sav
 1.Downdload the project
 - Click the green Code button in this repository
 - Select Download ZIP
-- Extract it to a folder (e.g., C:\Users\YourName\reddit-image-scraper)
+- Extract it to a folder (e.g., C:\Users\Documents\reddit-image-scraper)
+- Make sure reddit-image-scraper folder not create double folder
   
   Alternetive (Clone using Git)
   git clone https://github.com/ikmalaz/reddit-image-scraper.git
