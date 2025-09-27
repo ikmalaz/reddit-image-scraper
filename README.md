@@ -1,7 +1,7 @@
 \# Reddit Image Scraper (r/bolehland)
 
 
-This project scrapes posts from r/bolehland, filters only those with images, saves them to `results.json`, and optionally displays the result in simple webpage `index.html`.
+This project scrapes posts from r/bolehland, filters only those with images, saves them to `results.json`, and optionally displays the result in simple webpage `index.html` using pyhton.
 
 \## Features
 - Scrapes subreddit posts (JSON API)
