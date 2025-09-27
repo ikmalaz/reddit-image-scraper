@@ -24,7 +24,7 @@ This project scrapes posts from r/bolehland, filters only those with images, sav
 - Go to step 2
   
   Alternetive (Clone using Git)
-- Open Powershell / Command Prompt / Git Bash
+- Open Powershell 
  
   Insert ---> git clone https://github.com/ikmalaz/reddit-image-scraper.git
   
@@ -32,7 +32,7 @@ This project scrapes posts from r/bolehland, filters only those with images, sav
 
 - Go to step 3
   
-2.Open Powershell / Command Prompt / Git Bash
+2.Open Powershell 
 
 insert ---> cd (e.g, C:\Users\Documents\reddit-image-scraper) (based on folder PATH)
 
@@ -72,7 +72,7 @@ insert ---> cd (e.g, C:\Users\Documents\reddit-image-scraper) (based on folder P
 
 - The list of post titles with their images will be shown
 
-- To stop and exit press Ctrl + C at Powershell / cmd / Git Bash 
+- To stop and exit press Ctrl + C at Powershell 
 
 ```bash
 reddit-image-scraper/
