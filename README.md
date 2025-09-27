@@ -18,36 +18,61 @@ This project scrapes posts from r/bolehland, filters only those with images, sav
 - Click the green Code button in this repository
 - Select Download ZIP
 - Extract it to a folder (e.g., C:\Users\Documents\reddit-image-scraper)
-- Make sure reddit-image-scraper folder not create double folder
+- Make sure reddit-image-scraper folder not creating a double folder
+- If reddit-image-scraper folder create a double folder, move all the content inside into a outer folder
+- Delete the empty extra folder
+- Go to step 2
   
   Alternetive (Clone using Git)
-  git clone https://github.com/ikmalaz/reddit-image-scraper.git
-  cd reddit-image-scraper
+-Open Powershell / Command Prompt / Git Bash
+ 
+  Insert ---> git clone https://github.com/ikmalaz/reddit-image-scraper.git
+  
+  Then insert ---> cd reddit-image-scraper
+
+-Go to step 3
   
 2.Open Powershell / Command Prompt / Git Bash
 
+insert ---> cd (e.g, C:\Users\Documents\reddit-image-scraper) (based on folder PATH)
+
 3.Create a virtual enviroment
-  python -m venv venv
+
+  Insert ---> python -m venv venv
   
 4.Active the virtual enviroment
-  .\venv\Scripts\activate
-- (venv) will show at the beginning of the command line
+
+  Insert ---> .\venv\Scripts\activate
+  
+ (venv) will show at the beginning of the command line
 
 5.Install required libraries
-  pip install -r requirements.txt
+
+ Insert ---> pip install -r requirements.txt
+
+ -Update to the latest pip version if (optional)
 
 \## How to Run
--make sure your virtual enviroment is active (venv) is showing
--run the scraper
- python scraper.py
--after it finishes, check folder and see results.json (contain the scraped posts with images)
+
+- Make sure your virtual enviroment is active (venv) is showing
+
+- Run the scraper
+
+ Insert  ---> python scraper.py
+ 
+- Fetching a data from reddit will be shown as results.json (contain the scraped posts with images)
 
 5.View result in a Webpage
--start a simple local server
-python -m http.server 8000
--then open browser and go to http://localhost:8000/index.html
--the list of post titles with their images will be shown
--stop the server press Ctrl + C at Powershell/cmd/Git Bash
+
+- Start a simple local server
+
+ Insert ---> python -m http.server 8000
+
+- Then open browser and go to http://localhost:8000/index.html
+
+- The list of post titles with their images will be shown
+
+- To stop and exit press Ctrl + C at Powershell / cmd / Git Bash 
 
 ```bash
 reddit-image-scraper/
